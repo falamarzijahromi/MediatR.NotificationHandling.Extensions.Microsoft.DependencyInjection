@@ -14,6 +14,7 @@ services.AddMediatR(cfg => cfg.AsScoped(), typeof(Startup));
 ```
 
 2- Microsoft runtime implemetation of IServiceProvider must be IServiceScope too. (This condition depends on microsoft .net team)
+
 3- Extension methods must be called after all notification handlers registered.
 
 Configuring MediatR immediately after AddMediatR registered handlers:
