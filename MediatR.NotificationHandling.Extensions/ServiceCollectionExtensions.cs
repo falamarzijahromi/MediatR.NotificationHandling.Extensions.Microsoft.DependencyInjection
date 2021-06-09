@@ -10,8 +10,8 @@ namespace Microsoft.Extensions.DependencyInjection
     /// Extensions to configure MediatR cotification handling in separate dependency scopes.
     /// After calling AddMediatR you can call extension methods
     /// There are three pre conditions for using extenion methods:
-    /// - IMediatR lifestyle must be registered with scoped lifestyle
-    /// - Microsoft runtime implemetation of IServiceProvider must be IServiceScope.
+    /// - IMediatR must be registered with scoped lifestyle
+    /// - Microsoft runtime implemetation of IServiceProvider must be IServiceScope too.
     /// - Extension methods must be called after all notification handlers registered.
     /// </summary>
     public static class ServiceCollectionExtensions
