@@ -7,6 +7,7 @@ By using this extension every notification will be handled in separate IServiceS
 Extensions tested with modified MediatR and MediatR.Extensions.Microsoft.DependencyInjection tests to ensure compatibility and performability.
 
 You can use extension in two ways. in every cases there are three pre conditions:
+
 1- IMediatR must be registered with scoped lifestyle.
 
 ```c#
