@@ -15,7 +15,7 @@
 	</ItemGroup>
 
 	<ItemGroup>
-		<ProjectReference Include="..\MediatR.NotificationHandling.Extensions\MediatR.NotificationHandling.Extensions\MediatR.NotificationHandling.Extensions.csproj" />
+		<ProjectReference Include="..\MediatR.NotificationHandling.Extensions\MediatR.NotificationHandling.Extensions.csproj" />
 	</ItemGroup>
 
 </Project>
