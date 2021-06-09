@@ -31,5 +31,5 @@ services.AddMediatR(cfg => cfg.AsScoped(), typeof(Startup));
 
 ...
 
-services.IsolateNotificationHandlingScopes();
+services.IsolateMediatRNotificationHandlingScopes();
 ```
