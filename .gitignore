@@ -1,0 +1,12 @@
+﻿################################################################################
+# This .gitignore file was automatically created by Microsoft(R) Visual Studio.
+################################################################################
+
+/.vs
+/MediatR.Extensions.Microsoft.DependencyInjection.Tests/bin
+/MediatR.Extensions.Microsoft.DependencyInjection.Tests/obj
+/MediatR.NotificationHandling.Extensions/.vs/MediatR.NotificationHandling.Extensions/v16
+/MediatR.NotificationHandling.Extensions/MediatR.NotificationHandling.Extensions/bin
+/MediatR.NotificationHandling.Extensions/MediatR.NotificationHandling.Extensions/obj
+/TestApp/bin
+/TestApp/obj
